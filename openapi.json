@@ -1,0 +1,111 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Recipe",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {
+    "/recipes": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/recipes"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "get-recipes",
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "excludeTags"
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "type"
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "includeTags"
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "recipes": {
+        "title": "recipes",
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "tags": {
+            "type": "array",
+            "items": {}
+          },
+          "ratings": {
+            "type": "string"
+          },
+          "likes": {
+            "type": "number"
+          },
+          "totalTime": {
+            "type": "string"
+          },
+          "preparationTime": {
+            "type": "string"
+          },
+          "cookingTime": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string"
+          },
+          "tools": {
+            "type": "array",
+            "items": {}
+          },
+          "url": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "tags",
+          "ratings",
+          "likes"
+        ]
+      }
+    }
+  }
+}
