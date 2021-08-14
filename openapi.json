@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-    "/rec44v2242": {
+    "/rec44v22242": {
       "get": {
         "summary": "Your GET endpoint",
         "tags": [],
