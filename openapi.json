@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-    "/rec": {
+    "/rec2": {
       "get": {
         "summary": "Your GET endpoint",
         "tags": [],
