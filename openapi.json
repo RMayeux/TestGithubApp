@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-    "/recipes": {
+    "/recipe2s": {
       "get": {
         "summary": "Your GET endpoint",
         "tags": [],
