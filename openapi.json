@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-    "/52": {
+    "/5242": {
       "get": {
         "summary": "Your GET endpoint",
         "tags": [],
