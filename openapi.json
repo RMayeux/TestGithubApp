@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-    "/reczeipezXDs": {
+    "/rec": {
       "get": {
         "summary": "Your GET endpoint",
         "tags": [],
