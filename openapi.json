@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-    "/rec": {
+    "/rekignito": {
       "get": {
         "summary": "Your GET endpoint",
         "tags": [],
