@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-    "/rekignito22": {
+    "/rekignito224": {
       "get": {
         "summary": "Your GET endpoint",
         "tags": [],
