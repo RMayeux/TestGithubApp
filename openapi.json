@@ -745,17 +745,6 @@
         "summary": "Delete user",
         "description": "This can only be done by the logged in user.",
         "operationId": "deleteUser",
-        "parameters": [
-          {
-            "name": "username",
-            "in": "path",
-            "description": "The name that needs to be deleted",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
         "responses": {
           "400": {
             "description": "Invalid username supplied",
@@ -780,15 +769,6 @@
             "name": "username",
             "in": "query",
             "description": "The user name for login",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "password",
-            "in": "query",
-            "description": "The password for login in clear text",
             "required": true,
             "schema": {
               "type": "string"
