@@ -55,18 +55,6 @@
         ],
         "summary": "uploads an image",
         "operationId": "uploadFile",
-        "parameters": [
-          {
-            "name": "petId",
-            "in": "path",
-            "description": "ID of pet to update",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int64"
-            }
-          }
-        ],
         "requestBody": {
           "content": {
             "multipart/form-data": {
